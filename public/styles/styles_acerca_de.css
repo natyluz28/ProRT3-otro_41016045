@@ -1,0 +1,102 @@
+/* Estilos para la página "Acerca de" */
+
+body {
+    font-family: 'Playwrite NZ', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+.header-img {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Botones */
+.boton .btn-group {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.boton .btn {
+    background-color: #28a745;
+    color: #ffffff;
+    border-radius: 0;
+    margin: 5px;
+}
+
+/* Carrusel */
+.carousel {
+    margin-top: 20px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+/* Mapa y Teléfonos */
+.mapa-telefono {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.mapa-telefono .box1,
+.mapa-telefono .box2 {
+    width: 48%;
+}
+
+.box1 {
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.box2 {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social a:hover {
+    text-decoration: underline;
+}

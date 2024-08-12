@@ -1,0 +1,86 @@
+/* General */
+body {
+    background-color: #f0f8ff; /* Azul muy claro */
+    font-family: "Playwrite NZ", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+p {
+    color: #003366; /* Azul oscuro */
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    color: #003366; /* Azul oscuro */
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #00509e; /* Azul medio */
+}
+
+/* Formulario de Inicio de Sesión */
+.container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff; /* Blanco */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #b3cde0; /* Celeste */
+    border-bottom: 1px solid #003366; /* Azul oscuro */
+    color: #003366;
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
+}
+
+.form-control {
+    border: 1px solid #00509e; /* Azul medio */
+    border-radius: 4px;
+}
+
+.btn-success {
+    background-color: #007bff; /* Azul fuerte */
+    border-color: #007bff;
+}
+
+.btn-success:hover {
+    background-color: #0056b3; /* Azul más oscuro */
+    border-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #ff6f61; /* Naranja claro */
+    border-color: #ff6f61;
+}
+
+.btn-danger:hover {
+    background-color: #e15f50; /* Naranja más oscuro */
+    border-color: #e15f50;
+}
+
+/* Mensajes de Error y Éxito */
+.alert-warning {
+    background-color: #ffffe0; /* Amarillo muy claro */
+    color: #8a6d3b; /* Amarillo dorado oscuro */
+}
+
+.alert-danger {
+    background-color: #f8d7da; /* Rojo claro */
+    color: #721c24; /* Rojo oscuro */
+}
+
+.alert-success {
+    background-color: #d4edda; /* Verde claro */
+    color: #155724; /* Verde oscuro */
+}

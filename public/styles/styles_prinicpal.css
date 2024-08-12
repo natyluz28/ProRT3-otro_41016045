@@ -1,0 +1,121 @@
+/* Estilos generales para el cuerpo */
+body {
+    background-color: #f0f8ff; /* Fondo azul claro */
+    font-family: "Playwrite NZ", cursive;
+    font-weight: 300;
+    font-style: normal;
+    color: #333; /* Color del texto principal */
+}
+
+/* Estilos para párrafos */
+p {
+    border-width: 1px;
+    border-color: #87cefa; /* Borde azul celeste */
+    color: #2f4f4f; /* Color del texto (gris oscuro) */
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    padding: 10px;
+}
+
+/* Estilos para encabezados */
+h1, h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+/* Estilos para secciones */
+section {
+    background-color: #87ceeb; /* Fondo azul celeste */
+    padding: 20px;
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos específicos para la galería */
+.galeria {
+    text-align: center;
+}
+
+.galeria h1 {
+    margin-bottom: 20px;
+}
+
+.galeria .images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px; /* Espacio entre las imágenes */
+    flex-wrap: wrap;
+}
+
+.galeria .images img {
+    max-width: 350px;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* Esquinas redondeadas para las imágenes */
+    border: 2px solid #4682b4; /* Borde azul acero */
+}
+
+/* Estilos para el pie de foto */
+.galeria .foto, .galeria .pie {
+    flex: 1 1 calc(33.333% - 1rem);
+    box-sizing: border-box;
+    margin-top: 10px; /* Espacio superior del párrafo */
+    color: #000; /* Color del texto */
+    padding: 10px; /* Relleno alrededor del texto */
+    text-align: center;
+}
+
+/* Ajustes para dispositivos más pequeños */
+@media (max-width: 768px) {
+    .galeria .foto, .galeria .pie {
+        flex: 1 1 calc(50% - 1rem);
+    }
+}
+
+@media (max-width: 576px) {
+    .galeria .foto, .galeria .pie {
+        flex: 1 1 100%;
+    }
+}
+
+/* Estilos para el pie de página (footer) */
+footer {
+    background-color: #4682b4; /* Fondo azul acero */
+    color: #fff; /* Color de texto blanco */
+    padding: 20px 0;
+    text-align: center;
+    border-top: 2px solid #5f9ea0; /* Borde superior */
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.social {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+a {
+    color: #fff; /* Color de enlaces en el footer */
+    text-decoration: none;
+}
+
+/* Estilos para el encabezado */
+header {
+    text-align: center;
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+header img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px; /* Esquinas redondeadas para la imagen */
+    border: 2px solid #5f9ea0; /* Borde azul */
+}
+

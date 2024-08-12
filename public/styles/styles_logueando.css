@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+    font-family: 'Playwrite NZ', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header-container {
+    background-color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-container .logo {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.header-container .title-container h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: #28a745;
+}
+
+.header-container .title-container h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #6c757d;
+}
+
+/* Search Bar */
+.header-container form .form-control {
+    border-radius: 0;
+    border: 2px solid #28a745;
+}
+
+.header-container form .form-control:focus {
+    box-shadow: none;
+    border-color: #28a745;
+}
+
+/* Dropdown Menu */
+.dropdown .btn-secondary {
+    background-color: #28a745;
+    border: none;
+    border-radius: 0;
+}
+
+.dropdown .dropdown-menu {
+    border-radius: 0;
+}
+
+.dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header-container .title-container h1 {
+        font-size: 1.5rem;
+    }
+    .header-container .title-container h2 {
+        font-size: 1.2rem;
+    }
+    .header-container .logo {
+        width: 60px;
+    }
+}

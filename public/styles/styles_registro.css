@@ -1,0 +1,58 @@
+body {
+    background-color: #f0f8ff; /* Azul claro de fondo */
+    font-family: "Arial", sans-serif; /* Fuente estándar */
+}
+
+.container {
+    margin-top: 5rem; /* Espacio superior para el contenedor */
+}
+
+h2 {
+    text-align: center;
+    color: #007bff; /* Azul fuerte para el título */
+}
+
+.alert {
+    margin-bottom: 1rem; /* Espacio inferior para los mensajes */
+}
+
+.alert-danger {
+    background-color: #f8d7da; /* Rojo claro para el error */
+    color: #721c24; /* Rojo oscuro para el texto */
+}
+
+.alert-success {
+    background-color: #d4edda; /* Verde claro para el éxito */
+    color: #155724; /* Verde oscuro para el texto */
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    border-color: #007bff; /* Azul para los bordes de los campos de entrada */
+    border-radius: 0.25rem; /* Bordes redondeados */
+}
+
+.btn-success {
+    background-color: #007bff; /* Azul */
+    border-color: #007bff;
+    color: #fff; /* Texto blanco */
+}
+
+.btn-success:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el ratón */
+    border-color: #004085;
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Rojo */
+    border-color: #dc3545;
+    color: #fff; /* Texto blanco */
+}
+
+.btn-danger:hover {
+    background-color: #c82333; /* Rojo más oscuro al pasar el ratón */
+    border-color: #bd2130;
+}

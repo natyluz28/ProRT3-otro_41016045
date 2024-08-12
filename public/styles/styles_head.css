@@ -1,0 +1,94 @@
+/* Estilos generales */
+body {
+    background-color: #f0f8ff; /* Fondo azul claro */
+    font-family: 'Playwrite NZ', cursive;
+    font-weight: 300;
+    color: #333; /* Color del texto principal */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+.header-container {
+    background-color: #4682b4; /* Fondo azul acero */
+    padding: 20px;
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+.header-container .logo {
+    max-width: 100px; /* Ancho máximo del logo */
+    height: auto;
+    margin-right: 20px; /* Espacio entre el logo y el título */
+}
+
+.header-container .title-container h1 {
+    color: #fff; /* Color del texto del título */
+    margin: 0; /* Eliminar margen */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.header-container .title-container h2 {
+    color: #f0f8ff; /* Color del subtítulo */
+    margin: 0; /* Eliminar margen */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+/* Estilos para el formulario de búsqueda */
+.header-container form {
+    max-width: 300px; /* Ancho máximo del formulario */
+}
+
+.header-container input[type="search"] {
+    border: 2px solid #5f9ea0; /* Borde azul */
+    border-radius: 4px; /* Esquinas redondeadas */
+}
+
+/* Estilos para el menú desplegable de usuario */
+.header-container .dropdown-menu {
+    background-color: #4682b4; /* Fondo azul acero */
+    border: none;
+    border-radius: 8px; /* Esquinas redondeadas */
+}
+
+.header-container .dropdown-menu a {
+    color: #fff; /* Color del texto */
+    text-decoration: none;
+}
+
+.header-container .dropdown-menu a:hover {
+    background-color: #5f9ea0; /* Fondo azul más claro al pasar el ratón */
+}
+
+/* Estilos adicionales para el botón */
+.header-container .btn-secondary {
+    background-color: #5f9ea0; /* Fondo azul más claro para el botón */
+    border: none;
+}
+
+.header-container .btn-secondary:hover {
+    background-color: #87ceeb; /* Fondo azul celeste al pasar el ratón */
+}
+
+
+
+/* Ajustes para dispositivos más pequeños */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-container .title-container {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .header-container form {
+        margin-top: 10px;
+        max-width: 100%;
+    }
+}
